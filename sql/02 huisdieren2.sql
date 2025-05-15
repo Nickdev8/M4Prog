@@ -1,1 +1,0 @@
-SELECT naam FROM `huisdieren`;

@@ -1,0 +1,1 @@
+SELECT naam,eigenaar FROM `huisdieren`;
