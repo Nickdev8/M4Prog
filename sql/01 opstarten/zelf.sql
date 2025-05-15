@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS producten (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    naam VARCHAR(100) NOT NULL,
+    beschrijving TEXT,
+    kost INT NOT NULL,
+    stock INT NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
