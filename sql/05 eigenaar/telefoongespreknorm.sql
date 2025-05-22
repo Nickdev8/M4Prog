@@ -1,6 +1,3 @@
--- 05_telefoongespreknorm.sql
-
--- 1) Klant-tabel
 CREATE TABLE klant (
   klantid INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   naam VARCHAR(220) NOT NULL,
@@ -11,7 +8,6 @@ CREATE TABLE klant (
   DEFAULT CHARSET=utf8mb4
   COLLATE=utf8mb4_general_ci;
 
--- 2) Telefoongesprek-tabel
 CREATE TABLE telefoonGesprek (
   gesprekid INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   klantid INT NOT NULL,
@@ -25,7 +21,6 @@ CREATE TABLE telefoonGesprek (
 ) ENGINE=InnoDB
   DEFAULT CHARSET=utf8mb4
   COLLATE=utf8mb4_general_ci;
-
 
 
 INSERT INTO klant (klantid, naam, leeftijd, telefoonnummer)
